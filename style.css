@@ -29,9 +29,10 @@ body {
 
 .Hordhac:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      transform: scale(1.1);
 }
 
-.Hordhac img{
+.Hordhac img {
     display: block;
     width: 300px; height: 300px;
     object-fit: cover;
@@ -82,4 +83,28 @@ body {
 .meere {
   text-align:center;
   justify-content: center;
+}
+
+.footer {
+  text-align: center;
+  color: lightblue;
+  padding: 20px;
+}
+
+#kaltirsiga {
+  text-align:center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#kaltirsiga ul {
+  list-style: none;
+}
+
+.kala {
+  padding: 20px;
+}
+
+#text {
+  color: pink;
 }
