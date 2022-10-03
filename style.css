@@ -1,0 +1,123 @@
+body {
+  font-family: "Century Gothic";
+  font-weight: 600;
+  font-size: 8px;
+  font-size: calc(1rem + 1vw);
+  background-color: #444;
+  color:whitesmoke;
+}
+
+#Xidigo  img{
+  width :100%;
+  height: auto;
+  padding: 20px 20px;
+}
+
+.xidig {
+  font-size: 13px;
+  font-size: calc(1rem + 1vw);
+}
+
+.xidig h3 {
+  font-size: 18px;
+  font-size: calc(1.5rem + 1vw);
+}
+
+@media only screen and (max-width: 300px) {
+  #Xidigo  img {
+    height : 500px;
+  }
+
+}
+
+.Hordhac{
+    font-family: serif;
+    margin-top: 80px;
+    margin-bottom : 60px;
+    text-align: center;
+    box-shadow: 50px 50px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.Hordhac:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      transform: scale(1.1);
+}
+
+.Hordhac img {
+    display: block;
+    width: 300px; height: 300px;
+    object-fit: cover;
+    border:4px solid #726a95;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.zone {
+    cursor:pointer;
+    color:#FFF;
+    /* font-size:2em; */
+
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone h3 {
+  color: lightblue;
+}
+
+.color {
+  color: lightblue;
+}
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.box {
+    background-color: #444;
+    padding: 90px;
+    margin: 20px;
+}
+
+.box > img {
+    width: 100%;
+    height: auto;
+}
+
+.box > h3 {
+  text-align:center;
+  justify-content: center;
+}
+
+.meere {
+  text-align:center;
+  justify-content: center;
+}
+
+.footer {
+  text-align: center;
+  color: lightblue;
+  padding: 20px;
+}
+
+#kaltirsiga {
+  text-align:center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#kaltirsiga ul {
+  list-style: none;
+}
+
+.kala {
+  padding: 20px;
+}
+
+#text {
+  color: pink;
+}
